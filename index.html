@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class = "container-fluid">
+    <div class = "text-center">
+      <h2>Random Quote Generator</h2>
+      <p>Enjoy a random quote generator powered by <a rel="nofollow" rel="noreferrer"href = "http://forismatic.com/en/api/">Forismatic</a>
+    </div>
+    <div class = "square">
+      <div id = "post_here">
+        Hit the Randomize Button
+      </div>
+      <div id = "author">
+        Author
+      </div>
+    </div>
+    <a rel="nofollow" rel="noreferrer"class='btn btn-primary' id='tweet' href='#' target='_blank' role='button'>
+      <i class="fa fa-twitter"></i> Tweet Quote!
+    </a>
+    <button onclick = "randomQuote()" type="button" class="btn btn-primary" id="getQuoteMessage">
+    Randomize Quote
+    </button>
+  </div>
+  <footer>
+    <p>Copyright © Damanjit S. Hundal 2017. All Rights Reserved</p>
+    <div style = "width:100%" height = 1000px id = "social">
+      <a rel="nofollow" rel="noreferrer"href = "https://www.facebook.com/damanjitterbug" target='_blank'><img src = "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-256.png" alt = "Facebook" class = "img-responsive" width = 35 height = 35/></a>
+       <a rel="nofollow" rel="noreferrer"href = "https://www.instagram.com/hundalitis/" target='_blank'><img src = "http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" alt = "instagram" class = "img-responsive" width = 35 height = 35/></a>
+      <a rel="nofollow" rel="noreferrer"href = "https://github.com/dshundal94" target='_blank'><img src = "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt = "github" class = img-responsive width = 35 height = 35/></a>
+      <a rel="nofollow" rel="noreferrer"href = "https://www.linkedin.com/in/damanjithundal" target='_blank'><img src = "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" alt = "linkedin" class = "img-responsive" width = 35 height = 35/></a>
+      <a rel="nofollow" rel="noreferrer"href = "https://www.quora.com/profile/Damanjit-Hundal-2" target='_blank'><img src = "http://icons.iconarchive.com/icons/danleech/simple/1024/quora-icon.png" alt = "quora" class = "img-responsive" width = 35 height = 35/></a>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</footer>
+
+</html>
